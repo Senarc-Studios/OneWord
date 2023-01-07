@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B158349729667AEC0032AEE1 /* OneWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B158349629667AEC0032AEE1 /* OneWordApp.swift */; };
-		B158349929667AEC0032AEE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B158349829667AEC0032AEE1 /* ContentView.swift */; };
+		B158349929667AEC0032AEE1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B158349829667AEC0032AEE1 /* SettingsView.swift */; };
 		B158349B29667AEF0032AEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B158349A29667AEF0032AEE1 /* Assets.xcassets */; };
 		B158349E29667AEF0032AEE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B158349D29667AEF0032AEE1 /* Preview Assets.xcassets */; };
+		B15834A52966BA560032AEE1 /* ButtonBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15834A42966BA560032AEE1 /* ButtonBackend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B158349329667AEC0032AEE1 /* OneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B158349629667AEC0032AEE1 /* OneWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWordApp.swift; sourceTree = "<group>"; };
-		B158349829667AEC0032AEE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B158349829667AEC0032AEE1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B158349A29667AEF0032AEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B158349D29667AEF0032AEE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B15834A42966BA560032AEE1 /* ButtonBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				B158349629667AEC0032AEE1 /* OneWordApp.swift */,
-				B158349829667AEC0032AEE1 /* ContentView.swift */,
+				B15834A42966BA560032AEE1 /* ButtonBackend.swift */,
+				B158349829667AEC0032AEE1 /* SettingsView.swift */,
 				B158349A29667AEF0032AEE1 /* Assets.xcassets */,
 				B158349C29667AEF0032AEE1 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B158349929667AEC0032AEE1 /* ContentView.swift in Sources */,
+				B158349929667AEC0032AEE1 /* SettingsView.swift in Sources */,
+				B15834A52966BA560032AEE1 /* ButtonBackend.swift in Sources */,
 				B158349729667AEC0032AEE1 /* OneWordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = PQ533K2WL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = PQ533K2WL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
